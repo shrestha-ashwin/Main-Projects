@@ -11,4 +11,8 @@ These are based on what I have learned from COMS 127, and the internet.
 
 4)Task Manager: This program allows the user to add tasks, view tasks, mark tasks as completed, and exit the program.
 
-5)Hire Me Website: This website is the result of my efforts at learning HTML and CSS. The website is purely presentational, and a lot of flexbox was used.
+5)Front-end Website:
+
+Hire Me Website: This website is the result of my efforts at learning HTML and CSS. The website is purely presentational, and a lot of flexbox was used.
+
+Testimonials Website: This website is a testimonial layout website made using CSS Grid, and some flexbox. 
