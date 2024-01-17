@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  background-color: rgba(240, 240, 240, 0.875);
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 75%;
+  margin: 100px auto;
+  display: grid;
+  grid-template-areas:
+    "daniel daniel jonathan kira"
+    "jean patrick patrick  kira";
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  align-items: start;
+  justify-content: center;
+}
+
+/* Testimonial: class that targets all of them */
+
+.testimonial {
+  padding: 30px;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  font-size: 11px;
+}
+
+main {
+  margin-bottom: 15px;
+  font-size: 19px;
+}
+
+article {
+  font-size: 16px;
+}
+
+/* Daniel */
+
+.daniel {
+  grid-area: daniel;
+  background-color: #7a0c9bd8;
+  color: #fff;
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top 10px right 100px;
+}
+
+.daniel header h2 {
+  color: rgb(220, 220, 220);
+}
+
+.daniel header h3 {
+  color: rgb(200, 200, 200);
+}
+
+.daniel main {
+  color: rgb(220, 220, 220);
+}
+
+.daniel article {
+  color: rgb(160, 160, 160);
+}
+
+.daniel img {
+  border: 1px rgb(180, 180, 180) solid;
+}
+
+/* Jonathan */
+
+.jonathan {
+  grid-area: jonathan;
+  background-color: #2f2c2ccd;
+}
+
+.jonathan h2 {
+  color: rgb(200, 200, 200);
+}
+
+.jonathan h3 {
+  color: rgb(180, 180, 180);
+}
+
+.jonathan main {
+  color: rgb(230, 230, 230);
+}
+
+.jonathan article {
+  color: rgb(180, 180, 180);
+}
+
+/* Kira */
+
+.kira {
+  grid-area: kira;
+  background-color: #fff;
+}
+
+.kira h2 {
+  color: rgb(60, 60, 60);
+}
+
+.kira h3 {
+  color: rgb(100, 100, 100);
+}
+
+.kira main {
+  color: rgb(80, 80, 80);
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.kira article {
+  color: rgb(120, 120, 120);
+}
+
+/* Jean */
+
+.jean {
+  grid-area: jean;
+  background-color: #fff;
+}
+
+.jean h2 {
+  color: rgb(60, 60, 60);
+}
+
+.jean h3 {
+  color: rgb(100, 100, 100);
+}
+
+.jean main {
+  color: rgb(30, 30, 30);
+  font-weight: 550;
+}
+
+.jean article {
+  color: rgb(120, 120, 120);
+}
+
+/* Patrick */
+
+.patrick {
+  grid-area: patrick;
+  background-color: rgb(20, 20, 20);
+}
+
+.patrick img {
+  border: 1px rgb(161, 16, 206) solid;
+}
+
+.patrick h2 {
+  color: rgb(230, 230, 230);
+}
+
+.patrick h3 {
+  color: rgb(150, 150, 150);
+}
+
+.patrick main {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.patrick article {
+  color: rgb(200, 200, 200);
+}
+
+/* smaller screens */
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+  }
+
+  .daniel {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  .jonathan {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+
+  .jean {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+
+  .patrick {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  .kira {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+}
