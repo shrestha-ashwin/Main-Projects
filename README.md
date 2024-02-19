@@ -16,3 +16,6 @@ These are based on what I have learned from COMS 127, and the internet.
 Hire Me Website: This website is the result of my efforts at learning HTML and CSS. The website is purely presentational, and a lot of flexbox was used.
 
 Testimonials Website: This website is a testimonial layout website made using CSS Grid, and some flexbox. 
+
+Layout: Re-created various common layouts as seen in popular websites.
+        Accordion, carousel, table, pagination, and hero sections were created.
