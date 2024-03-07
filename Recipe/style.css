@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Young Serif", sans-serif;
+  height: 100vh;
+}
+
+.container-box {
+  max-width: 80rem;
+  margin: 0 auto;
+  background-color: #f8f0e8;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 4rem 0;
+  max-width: 46rem;
+  background-color: #fff;
+  padding: 2.4rem;
+  border-radius: 10px;
+}
+
+.img {
+  width: 100%;
+  margin-bottom: 1.4rem;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.heading-primary {
+  font-size: 2.3rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.heading-secondary {
+  font-size: 1.8rem;
+  letter-spacing: 0.2px;
+  color: hsl(14, 45%, 36%);
+}
+
+.preparation-heading {
+  display: inline-block;
+  font-family: "Outfit";
+  font-size: 1.1rem;
+  color: #7b284f;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  margin-bottom: 7px;
+}
+
+.preparation-box {
+  background-color: #f2eaed;
+  padding: 1rem 2rem;
+}
+
+ul p,
+ol p {
+  display: inline;
+  padding-left: 0.2px;
+}
+
+ul li,
+ol li {
+  list-style-position: inside;
+  margin-bottom: 0.4rem;
+}
+
+ol p {
+  padding-left: 3.2px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.margin-normal {
+  margin-bottom: 1rem;
+}
+
+.margin-section {
+  margin-bottom: 1.5rem;
+}
+
+.section-divider {
+  margin-bottom: 1rem;
+  border: 0.2px solid #dbd8d8;
+}
+
+ol {
+  font-weight: 700;
+  font-family: "Outfit";
+}
+
+ol li span {
+  font-weight: 400;
+}
+
+.table {
+  padding: 2px 1rem;
+  font-family: "Outfit";
+  width: 100%;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 0.6rem 0;
+  border-bottom: 0.2px solid #dbd8d8;
+  font-weight: 400;
+}
+
+.none {
+  border: 0;
+}
+
+td {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.acknowledgement {
+  margin-top: 3rem;
+  text-align: center;
+}
