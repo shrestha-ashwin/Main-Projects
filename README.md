@@ -23,3 +23,5 @@ Layout: Re-created various common layouts as seen in popular websites.
 Score: A front-end website that shows the stats of your body, and gives the user a score. This website is made using CSS, and the design comes from frontendmentor.
 
 Recipe: A recipe page that displays a simple omelette recipes with all steps listed. The design comes from FrontEndMentor.
+
+E-commerce landing page: A e-commerce front page.
